@@ -1,6 +1,6 @@
 # Prize Math
 
-Prize Math is my first iOS app developed to be published in the App Store.  The premise is a rather simple one.  I wanted to learn swift and the iOS frameworks by developing an app that allowed parents to reward their children for learning basic arithmetic.  There are a lot of math apps for kids available but, at the time I started this project, I couldn't find one that gave the parent more control over the questions asked and the prizes awarded.  In Prize Math, the parent have the ability to define the questions asked and the rewards/prizes won by the user.  For example, a parent could quickly take a photo of a toy his or her child wanted and present it as a prize to be won.
+Prize Math is my first iOS app developed to be published in the App Store.  The premise is a rather simple one.  I wanted to learn swift and the iOS frameworks by developing an app that allowed parents to reward their children for learning basic arithmetic.  There are a lot of math apps for kids available but, at the time I started this project, I couldn't find one that gave the parent more control over the questions asked and the prizes awarded.  In Prize Math, the parent has the ability to define the questions asked and the rewards/prizes won by the user.  For example, a parent could quickly take a photo of a toy his or her child wanted and present it as a prize to be won.
 
 Current App Status: BROKEN  :(  (I'm in the middle of a significant update to simplify the code and make the UI more aesthetically pleasing).
 
