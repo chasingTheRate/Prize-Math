@@ -10,7 +10,7 @@ A user answers math questions by touching the displayed buttons and submitting a
 
 ![Alt text](/Images/howToPlay.PNG?raw=true "Home")
 
-After a predetermined number of questions are answered correctly, the app changes to a “Bonus Mode” where the user is presented with another round of math questions.  The Bonus Mode can be complicated by including a timer and/or “Complications”.  "Complications" are button animations that make selecting the number buttons more difficult.  “Gravity” and “Orbit” are shown below:
+After a predetermined number of questions are answered correctly, the app changes to a “Bonus Mode” where the user is presented with another round of math questions.  The Bonus Mode can be complicated by including a timer and/or “Complication”.  "Complications" are button animations that make selecting the number buttons more difficult.  “Gravity” and “Orbit” are shown below:
 
 ![Alt text](/Images/gravity.PNG?raw=true "Gravity") ![Alt text](/Images/orbit.PNG?raw=true "Gravity")
 
