@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:/Users/Mark/Documents/JackieWWDC/Prize Math.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/AppDelegate.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/Base.lproj">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/BonusQuestionEquationTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/Calculator.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/CollectionViewCellTapGestureRecognizer.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/DrawView.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/Images.xcassets">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/IMG_0189.JPG">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/Info.plist">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/MainViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/MainViewTableViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/NumOfEquationsTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/OldParentControlViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/ParentalControlTableViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/ParentalControlViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/ParentControllerTableViewController2.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/ParentControlPasswordTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/ParentControlSetPrizeTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/ParentControlSetQuestionTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/Prize.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/prizeCollectionViewCellImage.png">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/prizeCollectionViewCellImageLarge.png">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/prizeDescriptionTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/prizeImageTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/PrizeTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/PrizeTableViewCell2.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/PrizeTableViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/prizeTitleTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/PrizeTypeTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/RandomTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/SegmentControlTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/SetBonuesQuestionTableViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/SetBonusQuestionTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/SetPrizeTableViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/SettingsViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/SettingsViewController2.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/SketchViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/testCollectionViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/TestCollectionViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/TimedTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/TriggerTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../JackieWWDC/ViewController.swift">
+   </FileRef>
+</Workspace>

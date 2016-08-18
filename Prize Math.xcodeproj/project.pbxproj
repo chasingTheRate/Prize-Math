@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0EE6121C5AB2EC006801AE /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EE6111C5AB2EC006801AE /* Images.swift */; };
+		4D1433381C626D8200DD5F77 /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1433371C626D8200DD5F77 /* PasscodeViewController.swift */; };
+		4D1822E91C28FFDF00EAF151 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822E81C28FFDF00EAF151 /* DrawView.swift */; };
+		4D1822EB1C33766C00EAF151 /* SetBonuesQuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822EA1C33766C00EAF151 /* SetBonuesQuestionTableViewController.swift */; };
+		4D1822ED1C33987100EAF151 /* ParentControllerTableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822EC1C33987100EAF151 /* ParentControllerTableViewController2.swift */; };
+		4D1822F11C34509900EAF151 /* SetBonusQuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822F01C34509900EAF151 /* SetBonusQuestionTableViewCell.swift */; };
+		4D1822F31C34531700EAF151 /* TimedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822F21C34531700EAF151 /* TimedTableViewCell.swift */; };
+		4D1822F51C34533A00EAF151 /* TriggerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822F41C34533A00EAF151 /* TriggerTableViewCell.swift */; };
+		4D1822F71C35F2BF00EAF151 /* ParentControlSetQuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822F61C35F2BF00EAF151 /* ParentControlSetQuestionTableViewCell.swift */; };
+		4D1822F91C35F30100EAF151 /* ParentControlSetPrizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822F81C35F30100EAF151 /* ParentControlSetPrizeTableViewCell.swift */; };
+		4D1822FB1C35FB9D00EAF151 /* ParentControlPasswordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822FA1C35FB9D00EAF151 /* ParentControlPasswordTableViewCell.swift */; };
+		4D1822FD1C36023D00EAF151 /* BonusQuestionEquationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822FC1C36023D00EAF151 /* BonusQuestionEquationTableViewCell.swift */; };
+		4D1822FF1C360A4D00EAF151 /* NumOfEquationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1822FE1C360A4D00EAF151 /* NumOfEquationsTableViewCell.swift */; };
+		4D1823031C372CE000EAF151 /* RandomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1823021C372CE000EAF151 /* RandomTableViewCell.swift */; };
+		4D18AE6E1B28966100BC7BA0 /* PrizeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D18AE6D1B28966100BC7BA0 /* PrizeTableViewController.swift */; };
+		4D1D4CC91C5264F60011D6BC /* CollectionViewCellLongPressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D4CC81C5264F60011D6BC /* CollectionViewCellLongPressGestureRecognizer.swift */; };
+		4D2350451C6AEB4C00B9C644 /* CollectionViewInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2350441C6AEB4C00B9C644 /* CollectionViewInTableViewCell.swift */; };
+		4D2350471C6AED1D00B9C644 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2350461C6AED1D00B9C644 /* CollectionViewController.swift */; };
+		4D2350491C6AED6E00B9C644 /* GenericCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2350481C6AED6E00B9C644 /* GenericCollectionViewCell.swift */; };
+		4D23504B1C6B7D0400B9C644 /* Complication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23504A1C6B7D0400B9C644 /* Complication.swift */; };
+		4D23504D1C6B7E6F00B9C644 /* Complications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23504C1C6B7E6F00B9C644 /* Complications.swift */; };
+		4D35E9351C95A52300A35131 /* dualSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D35E9341C95A52300A35131 /* dualSliderCollectionViewCell.swift */; };
+		4D40A0971C618EDF00DD9C8D /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40A0961C618EDF00DD9C8D /* MainNavigationController.swift */; };
+		4D433C821C6422DE0039BB25 /* passcodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D433C811C6422DE0039BB25 /* passcodeTextField.swift */; };
+		4D433C841C6927160039BB25 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D433C831C6927160039BB25 /* MainTableViewController.swift */; };
+		4D433C871C6928A40039BB25 /* SimpleMathHorizontalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D433C861C6928A40039BB25 /* SimpleMathHorizontalTableViewCell.swift */; };
+		4D433C891C69333A0039BB25 /* DefaultKeyPadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D433C881C69333A0039BB25 /* DefaultKeyPadTableViewCell.swift */; };
+		4D447F6B1C288A770055D988 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D447F6A1C288A770055D988 /* Calculator.swift */; };
+		4D511E1B1CBC520C00170255 /* FractionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D511E1A1CBC520C00170255 /* FractionsCollectionViewCell.swift */; };
+		4D55D5001C9254D20000819E /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D55D4FF1C9254D20000819E /* Functions.swift */; };
+		4D5F8F521C8760C9007D7ED4 /* CountingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5F8F511C8760C9007D7ED4 /* CountingTableViewCell.swift */; };
+		4D60C4941C6E26A30012AD6B /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60C4931C6E26A30012AD6B /* InputView.swift */; };
+		4D61EFBB1B30DB7200163BDD /* SettingsViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61EFBA1B30DB7200163BDD /* SettingsViewController2.swift */; };
+		4D74B3531C767F2E00A59858 /* GenericLabelAndTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D74B3521C767F2E00A59858 /* GenericLabelAndTextTableViewCell.swift */; };
+		4D8667151C86623F0042B46F /* CustomSliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8667141C86623F0042B46F /* CustomSliderTableViewCell.swift */; };
+		4D8B98141C87A9970063201D /* CountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B98131C87A9970063201D /* CountingView.swift */; };
+		4D8B98161C87ACB20063201D /* Counting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B98151C87ACB20063201D /* Counting.swift */; };
+		4D8B98181C8E26350063201D /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B98171C8E26350063201D /* Stats.swift */; };
+		4D8B981C1C8F47820063201D /* BondsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B981B1C8F47820063201D /* BondsTableViewCell.swift */; };
+		4D8B981E1C8F54600063201D /* MathEquations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B981D1C8F54600063201D /* MathEquations.swift */; };
+		4D8B98201C8FA1170063201D /* Bonds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B981F1C8FA1170063201D /* Bonds.swift */; };
+		4D8B98221C8FAD4A0063201D /* BondsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B98211C8FAD4A0063201D /* BondsView.swift */; };
+		4D96133A1C48800F0094E6D7 /* CollectionViewCellTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9613391C48800F0094E6D7 /* CollectionViewCellTapGestureRecognizer.swift */; };
+		4D96133F1C501A3F0094E6D7 /* prizeCollectionViewCellImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D96133D1C501A3F0094E6D7 /* prizeCollectionViewCellImage.png */; };
+		4D9613401C501A3F0094E6D7 /* prizeCollectionViewCellImageLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D96133E1C501A3F0094E6D7 /* prizeCollectionViewCellImageLarge.png */; };
+		4D9B67541C5D1D4A00A63502 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B67531C5D1D4A00A63502 /* Colors.swift */; };
+		4D9B67561C5D375900A63502 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B67551C5D375900A63502 /* UserDefaults.swift */; };
+		4D9B67581C5EDF5300A63502 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B67571C5EDF5300A63502 /* HeaderCell.swift */; };
+		4D9B675B1C5F015700A63502 /* PrizeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B675A1C5F015700A63502 /* PrizeNavigationController.swift */; };
+		4D9B675F1C5FB04E00A63502 /* PrizeMathTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B675E1C5FB04E00A63502 /* PrizeMathTabBarController.swift */; };
+		4D9B67611C5FBFEB00A63502 /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B67601C5FBFEB00A63502 /* FooterCell.swift */; };
+		4D9B67641C6000E200A63502 /* MaxNumberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B67631C6000E200A63502 /* MaxNumberTableViewCell.swift */; };
+		4D9B67661C6000FE00A63502 /* OperatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B67651C6000FE00A63502 /* OperatorTableViewCell.swift */; };
+		4D9B67681C60011C00A63502 /* NightModeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B67671C60011C00A63502 /* NightModeTableViewCell.swift */; };
+		4D9E2D401C07E73D0072256C /* SketchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E2D3F1C07E73D0072256C /* SketchViewController.swift */; };
+		4DB2733A1C419050003327FB /* SetPrizeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB273391C419050003327FB /* SetPrizeTableViewController.swift */; };
+		4DB273401C41988B003327FB /* PrizeTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2733F1C41988B003327FB /* PrizeTypeTableViewCell.swift */; };
+		4DB2734C1C41CA57003327FB /* testCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2734B1C41CA57003327FB /* testCollectionViewCell.swift */; };
+		4DB273501C41DA13003327FB /* prizeTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2734F1C41DA13003327FB /* prizeTitleTableViewCell.swift */; };
+		4DB273521C41DA24003327FB /* prizeDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB273511C41DA24003327FB /* prizeDescriptionTableViewCell.swift */; };
+		4DB273541C41DA33003327FB /* prizeImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB273531C41DA33003327FB /* prizeImageTableViewCell.swift */; };
+		4DC3AF081CBEFAA50031906C /* ThemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3AF071CBEFAA50031906C /* ThemeCollectionViewCell.swift */; };
+		4DC3AF0B1CBEFAD60031906C /* OceanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3AF0A1CBEFAD60031906C /* OceanCollectionViewCell.swift */; };
+		4DC3AF0D1CBEFAF40031906C /* SpaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3AF0C1CBEFAF40031906C /* SpaceCollectionViewCell.swift */; };
+		4DC3AF0F1CBEFC770031906C /* OceanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3AF0E1CBEFC770031906C /* OceanView.swift */; };
+		4DC3AF111CBFE2CB0031906C /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3AF101CBFE2CB0031906C /* SpaceView.swift */; };
+		4DC53CFB1B262F7100822C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC53CFA1B262F7100822C21 /* AppDelegate.swift */; };
+		4DC53D001B262F7100822C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC53CFE1B262F7100822C21 /* Main.storyboard */; };
+		4DC53D021B262F7100822C21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC53D011B262F7100822C21 /* Images.xcassets */; };
+		4DC53D051B262F7100822C21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DC53D031B262F7100822C21 /* LaunchScreen.xib */; };
+		4DC53D111B262F7200822C21 /* JackieWWDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC53D101B262F7200822C21 /* JackieWWDCTests.swift */; };
+		4DD908CA1CB2D2F200A012FB /* TypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD908C91CB2D2F100A012FB /* TypeCollectionViewCell.swift */; };
+		4DD908CC1CB2D39900A012FB /* CountingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD908CB1CB2D39900A012FB /* CountingCollectionViewCell.swift */; };
+		4DD908CE1CB3116F00A012FB /* BasicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD908CD1CB3116F00A012FB /* BasicCollectionViewCell.swift */; };
+		4DE53B781CB4145B00C8C73B /* BondsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE53B771CB4145B00C8C73B /* BondsCollectionViewCell.swift */; };
+		4DE53B7C1CB48B2D00C8C73B /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE53B7B1CB48B2D00C8C73B /* Types.swift */; };
+		4DE6A2261CB572840016710E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6A2251CB572840016710E /* HeaderView.swift */; };
+		4DE6A2281CB573030016710E /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE6A2271CB573030016710E /* HeaderView.xib */; };
+		4DEAF0C51C9D9BA400DD4836 /* MinMaxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEAF0C41C9D9BA400DD4836 /* MinMaxCollectionViewCell.swift */; };
+		4DEAF0C71C9D9DFC00DD4836 /* MinMaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEAF0C61C9D9DFC00DD4836 /* MinMaxTableViewCell.swift */; };
+		4DEC37C71CAB0F8200396CE7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC37C61CAB0F8200396CE7 /* Theme.swift */; };
+		4DF3D81A1B2B2A3F00B4C891 /* IMG_0189.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4DF3D8191B2B2A3F00B4C891 /* IMG_0189.JPG */; };
+		4DF3D81C1B2B769400B4C891 /* Prize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3D81B1B2B769400B4C891 /* Prize.swift */; };
+		4DF3D81E1B2B780F00B4C891 /* PrizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3D81D1B2B780F00B4C891 /* PrizeTableViewCell.swift */; };
+		4DF61BC81C9452AF0032A116 /* LabelWithSwitchSingleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF61BC71C9452AF0032A116 /* LabelWithSwitchSingleTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DC53D0B1B262F7200822C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC53CED1B262F7100822C21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC53CF41B262F7100822C21;
+			remoteInfo = JackieWWDC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0EE6111C5AB2EC006801AE /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		4D1433371C626D8200DD5F77 /* PasscodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		4D1822E81C28FFDF00EAF151 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		4D1822EA1C33766C00EAF151 /* SetBonuesQuestionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetBonuesQuestionTableViewController.swift; sourceTree = "<group>"; };
+		4D1822EC1C33987100EAF151 /* ParentControllerTableViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentControllerTableViewController2.swift; sourceTree = "<group>"; };
+		4D1822F01C34509900EAF151 /* SetBonusQuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetBonusQuestionTableViewCell.swift; sourceTree = "<group>"; };
+		4D1822F21C34531700EAF151 /* TimedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimedTableViewCell.swift; sourceTree = "<group>"; };
+		4D1822F41C34533A00EAF151 /* TriggerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriggerTableViewCell.swift; sourceTree = "<group>"; };
+		4D1822F61C35F2BF00EAF151 /* ParentControlSetQuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentControlSetQuestionTableViewCell.swift; sourceTree = "<group>"; };
+		4D1822F81C35F30100EAF151 /* ParentControlSetPrizeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentControlSetPrizeTableViewCell.swift; sourceTree = "<group>"; };
+		4D1822FA1C35FB9D00EAF151 /* ParentControlPasswordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentControlPasswordTableViewCell.swift; sourceTree = "<group>"; };
+		4D1822FC1C36023D00EAF151 /* BonusQuestionEquationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonusQuestionEquationTableViewCell.swift; sourceTree = "<group>"; };
+		4D1822FE1C360A4D00EAF151 /* NumOfEquationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumOfEquationsTableViewCell.swift; sourceTree = "<group>"; };
+		4D1823021C372CE000EAF151 /* RandomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomTableViewCell.swift; sourceTree = "<group>"; };
+		4D18AE6D1B28966100BC7BA0 /* PrizeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrizeTableViewController.swift; sourceTree = "<group>"; };
+		4D1D4CC81C5264F60011D6BC /* CollectionViewCellLongPressGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellLongPressGestureRecognizer.swift; sourceTree = "<group>"; };
+		4D2350441C6AEB4C00B9C644 /* CollectionViewInTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewInTableViewCell.swift; sourceTree = "<group>"; };
+		4D2350461C6AED1D00B9C644 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		4D2350481C6AED6E00B9C644 /* GenericCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D23504A1C6B7D0400B9C644 /* Complication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Complication.swift; path = ../Complication.swift; sourceTree = "<group>"; };
+		4D23504C1C6B7E6F00B9C644 /* Complications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Complications.swift; sourceTree = "<group>"; };
+		4D35E9341C95A52300A35131 /* dualSliderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dualSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D40A0961C618EDF00DD9C8D /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		4D433C811C6422DE0039BB25 /* passcodeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = passcodeTextField.swift; sourceTree = "<group>"; };
+		4D433C831C6927160039BB25 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		4D433C861C6928A40039BB25 /* SimpleMathHorizontalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleMathHorizontalTableViewCell.swift; sourceTree = "<group>"; };
+		4D433C881C69333A0039BB25 /* DefaultKeyPadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultKeyPadTableViewCell.swift; sourceTree = "<group>"; };
+		4D447F6A1C288A770055D988 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		4D511E1A1CBC520C00170255 /* FractionsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FractionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D55D4FF1C9254D20000819E /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		4D5F8F511C8760C9007D7ED4 /* CountingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingTableViewCell.swift; sourceTree = "<group>"; };
+		4D60C4931C6E26A30012AD6B /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		4D61EFBA1B30DB7200163BDD /* SettingsViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController2.swift; sourceTree = "<group>"; };
+		4D74B3521C767F2E00A59858 /* GenericLabelAndTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericLabelAndTextTableViewCell.swift; sourceTree = "<group>"; };
+		4D8667141C86623F0042B46F /* CustomSliderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSliderTableViewCell.swift; sourceTree = "<group>"; };
+		4D8B98131C87A9970063201D /* CountingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingView.swift; sourceTree = "<group>"; };
+		4D8B98151C87ACB20063201D /* Counting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counting.swift; sourceTree = "<group>"; };
+		4D8B98171C8E26350063201D /* Stats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		4D8B981B1C8F47820063201D /* BondsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BondsTableViewCell.swift; sourceTree = "<group>"; };
+		4D8B981D1C8F54600063201D /* MathEquations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathEquations.swift; sourceTree = "<group>"; };
+		4D8B981F1C8FA1170063201D /* Bonds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bonds.swift; sourceTree = "<group>"; };
+		4D8B98211C8FAD4A0063201D /* BondsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BondsView.swift; sourceTree = "<group>"; };
+		4D9613391C48800F0094E6D7 /* CollectionViewCellTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		4D96133D1C501A3F0094E6D7 /* prizeCollectionViewCellImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prizeCollectionViewCellImage.png; sourceTree = "<group>"; };
+		4D96133E1C501A3F0094E6D7 /* prizeCollectionViewCellImageLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prizeCollectionViewCellImageLarge.png; sourceTree = "<group>"; };
+		4D9B67531C5D1D4A00A63502 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4D9B67551C5D375900A63502 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		4D9B67571C5EDF5300A63502 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		4D9B675A1C5F015700A63502 /* PrizeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrizeNavigationController.swift; sourceTree = "<group>"; };
+		4D9B675E1C5FB04E00A63502 /* PrizeMathTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrizeMathTabBarController.swift; sourceTree = "<group>"; };
+		4D9B67601C5FBFEB00A63502 /* FooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
+		4D9B67631C6000E200A63502 /* MaxNumberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxNumberTableViewCell.swift; sourceTree = "<group>"; };
+		4D9B67651C6000FE00A63502 /* OperatorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorTableViewCell.swift; sourceTree = "<group>"; };
+		4D9B67671C60011C00A63502 /* NightModeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightModeTableViewCell.swift; sourceTree = "<group>"; };
+		4D9E2D3F1C07E73D0072256C /* SketchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SketchViewController.swift; sourceTree = "<group>"; };
+		4DB273391C419050003327FB /* SetPrizeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPrizeTableViewController.swift; sourceTree = "<group>"; };
+		4DB2733F1C41988B003327FB /* PrizeTypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrizeTypeTableViewCell.swift; sourceTree = "<group>"; };
+		4DB2734B1C41CA57003327FB /* testCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DB2734F1C41DA13003327FB /* prizeTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prizeTitleTableViewCell.swift; sourceTree = "<group>"; };
+		4DB273511C41DA24003327FB /* prizeDescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prizeDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		4DB273531C41DA33003327FB /* prizeImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prizeImageTableViewCell.swift; sourceTree = "<group>"; };
+		4DC3AF071CBEFAA50031906C /* ThemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DC3AF0A1CBEFAD60031906C /* OceanCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OceanCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DC3AF0C1CBEFAF40031906C /* SpaceCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DC3AF0E1CBEFC770031906C /* OceanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OceanView.swift; sourceTree = "<group>"; };
+		4DC3AF101CBFE2CB0031906C /* SpaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
+		4DC53CF51B262F7100822C21 /* Prize Math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prize Math.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC53CF91B262F7100822C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC53CFA1B262F7100822C21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DC53CFF1B262F7100822C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC53D011B262F7100822C21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4DC53D041B262F7100822C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4DC53D0A1B262F7200822C21 /* Prize Math.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prize Math.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC53D0F1B262F7200822C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC53D101B262F7200822C21 /* JackieWWDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackieWWDCTests.swift; sourceTree = "<group>"; };
+		4DD908C91CB2D2F100A012FB /* TypeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DD908CB1CB2D39900A012FB /* CountingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DD908CD1CB3116F00A012FB /* BasicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DE53B771CB4145B00C8C73B /* BondsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BondsCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DE53B7B1CB48B2D00C8C73B /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		4DE6A2251CB572840016710E /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4DE6A2271CB573030016710E /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		4DEAF0C41C9D9BA400DD4836 /* MinMaxCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMaxCollectionViewCell.swift; sourceTree = "<group>"; };
+		4DEAF0C61C9D9DFC00DD4836 /* MinMaxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMaxTableViewCell.swift; sourceTree = "<group>"; };
+		4DEC37C61CAB0F8200396CE7 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		4DF3D8191B2B2A3F00B4C891 /* IMG_0189.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0189.JPG; path = JackieWWDC/IMG_0189.JPG; sourceTree = SOURCE_ROOT; };
+		4DF3D81B1B2B769400B4C891 /* Prize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prize.swift; sourceTree = "<group>"; };
+		4DF3D81D1B2B780F00B4C891 /* PrizeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrizeTableViewCell.swift; sourceTree = "<group>"; };
+		4DF61BC71C9452AF0032A116 /* LabelWithSwitchSingleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelWithSwitchSingleTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC53CF21B262F7100822C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC53D071B262F7200822C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1823001C372C6300EAF151 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4D433C851C69273A0039BB25 /* Main */,
+				4D9B67691C6001A000A63502 /* Settings */,
+				4DFB92E71C762E2B00498191 /* Parental Control */,
+				4DFB92E61C762E1E00498191 /* Prize Table */,
+				4D5997CC1C6AB29D00AC417D /* Set Bonus */,
+				4DFB92E81C762E3300498191 /* Set Prize */,
+				4DFB92E91C762E7D00498191 /* Multiuse */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		4D1823011C372C7500EAF151 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D433C831C6927160039BB25 /* MainTableViewController.swift */,
+				4D61EFBA1B30DB7200163BDD /* SettingsViewController2.swift */,
+				4D9E2D3F1C07E73D0072256C /* SketchViewController.swift */,
+				4D18AE6D1B28966100BC7BA0 /* PrizeTableViewController.swift */,
+				4D1433371C626D8200DD5F77 /* PasscodeViewController.swift */,
+				4D1822EC1C33987100EAF151 /* ParentControllerTableViewController2.swift */,
+				4D1822EA1C33766C00EAF151 /* SetBonuesQuestionTableViewController.swift */,
+				4DB273391C419050003327FB /* SetPrizeTableViewController.swift */,
+				4D1822F61C35F2BF00EAF151 /* ParentControlSetQuestionTableViewCell.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4D35E9331C95A4F000A35131 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4D35E9341C95A52300A35131 /* dualSliderCollectionViewCell.swift */,
+				4DEAF0C41C9D9BA400DD4836 /* MinMaxCollectionViewCell.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4D433C851C69273A0039BB25 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4D433C861C6928A40039BB25 /* SimpleMathHorizontalTableViewCell.swift */,
+				4D433C881C69333A0039BB25 /* DefaultKeyPadTableViewCell.swift */,
+				4D5F8F511C8760C9007D7ED4 /* CountingTableViewCell.swift */,
+				4D8B981B1C8F47820063201D /* BondsTableViewCell.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		4D5997CC1C6AB29D00AC417D /* Set Bonus */ = {
+			isa = PBXGroup;
+			children = (
+				4D1822FC1C36023D00EAF151 /* BonusQuestionEquationTableViewCell.swift */,
+				4D1822F01C34509900EAF151 /* SetBonusQuestionTableViewCell.swift */,
+				4D1822F21C34531700EAF151 /* TimedTableViewCell.swift */,
+				4D1822F41C34533A00EAF151 /* TriggerTableViewCell.swift */,
+				4D1822FE1C360A4D00EAF151 /* NumOfEquationsTableViewCell.swift */,
+				4D1823021C372CE000EAF151 /* RandomTableViewCell.swift */,
+				4D2350481C6AED6E00B9C644 /* GenericCollectionViewCell.swift */,
+			);
+			name = "Set Bonus";
+			sourceTree = "<group>";
+		};
+		4D9B67591C5F012C00A63502 /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B675A1C5F015700A63502 /* PrizeNavigationController.swift */,
+				4D40A0961C618EDF00DD9C8D /* MainNavigationController.swift */,
+			);
+			name = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		4D9B675C1C5FAFBB00A63502 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3AF091CBEFAB60031906C /* Theme */,
+				4DD908C81CB2D2A300A012FB /* Type */,
+				4D35E9331C95A4F000A35131 /* Settings */,
+				4D1D4CC81C5264F60011D6BC /* CollectionViewCellLongPressGestureRecognizer.swift */,
+				4D9613391C48800F0094E6D7 /* CollectionViewCellTapGestureRecognizer.swift */,
+				4D2350461C6AED1D00B9C644 /* CollectionViewController.swift */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		4D9B675D1C5FB00100A63502 /* TabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B675E1C5FB04E00A63502 /* PrizeMathTabBarController.swift */,
+			);
+			name = TabControllers;
+			sourceTree = "<group>";
+		};
+		4D9B67691C6001A000A63502 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B67631C6000E200A63502 /* MaxNumberTableViewCell.swift */,
+				4D9B67651C6000FE00A63502 /* OperatorTableViewCell.swift */,
+				4D9B67671C60011C00A63502 /* NightModeTableViewCell.swift */,
+				4D8667141C86623F0042B46F /* CustomSliderTableViewCell.swift */,
+				4DEAF0C61C9D9DFC00DD4836 /* MinMaxTableViewCell.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4DC3AF091CBEFAB60031906C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3AF071CBEFAA50031906C /* ThemeCollectionViewCell.swift */,
+				4DC3AF0A1CBEFAD60031906C /* OceanCollectionViewCell.swift */,
+				4DC3AF0C1CBEFAF40031906C /* SpaceCollectionViewCell.swift */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		4DC53CEC1B262F7100822C21 = {
+			isa = PBXGroup;
+			children = (
+				4DC53CF71B262F7100822C21 /* Prize Math */,
+				4DC53D0D1B262F7200822C21 /* PrizeMathTests */,
+				4DC53CF61B262F7100822C21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC53CF61B262F7100822C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC53CF51B262F7100822C21 /* Prize Math.app */,
+				4DC53D0A1B262F7200822C21 /* Prize Math.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC53CF71B262F7100822C21 /* Prize Math */ = {
+			isa = PBXGroup;
+			children = (
+				4DC53CFE1B262F7100822C21 /* Main.storyboard */,
+				4D1823011C372C7500EAF151 /* ViewControllers */,
+				4D1823001C372C6300EAF151 /* TableViewCells */,
+				4D9B67591C5F012C00A63502 /* NavigationControllers */,
+				4D9B675D1C5FB00100A63502 /* TabControllers */,
+				4D9B675C1C5FAFBB00A63502 /* CollectionViewCells */,
+				4DFB92E51C762D8F00498191 /* Other Classes */,
+				4DC53CF81B262F7100822C21 /* Supporting Files */,
+				4DE6A2251CB572840016710E /* HeaderView.swift */,
+				4DE6A2271CB573030016710E /* HeaderView.xib */,
+			);
+			name = "Prize Math";
+			path = JackieWWDC;
+			sourceTree = "<group>";
+		};
+		4DC53CF81B262F7100822C21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC53D031B262F7100822C21 /* LaunchScreen.xib */,
+				4DC53CFA1B262F7100822C21 /* AppDelegate.swift */,
+				4DC53D011B262F7100822C21 /* Images.xcassets */,
+				4D96133D1C501A3F0094E6D7 /* prizeCollectionViewCellImage.png */,
+				4D96133E1C501A3F0094E6D7 /* prizeCollectionViewCellImageLarge.png */,
+				4DF3D8191B2B2A3F00B4C891 /* IMG_0189.JPG */,
+				4DC53CF91B262F7100822C21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DC53D0D1B262F7200822C21 /* PrizeMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC53D101B262F7200822C21 /* JackieWWDCTests.swift */,
+				4DC53D0E1B262F7200822C21 /* Supporting Files */,
+			);
+			name = PrizeMathTests;
+			path = JackieWWDCTests;
+			sourceTree = "<group>";
+		};
+		4DC53D0E1B262F7200822C21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC53D0F1B262F7200822C21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DD908C81CB2D2A300A012FB /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				4DD908C91CB2D2F100A012FB /* TypeCollectionViewCell.swift */,
+				4DD908CB1CB2D39900A012FB /* CountingCollectionViewCell.swift */,
+				4DD908CD1CB3116F00A012FB /* BasicCollectionViewCell.swift */,
+				4DE53B771CB4145B00C8C73B /* BondsCollectionViewCell.swift */,
+				4D511E1A1CBC520C00170255 /* FractionsCollectionViewCell.swift */,
+			);
+			name = Type;
+			sourceTree = "<group>";
+		};
+		4DE53B7D1CB48B3A00C8C73B /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				4DE53B7B1CB48B2D00C8C73B /* Types.swift */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		4DEC37C31CAB0F3C00396CE7 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				4DEC37C61CAB0F8200396CE7 /* Theme.swift */,
+				4DC3AF0E1CBEFC770031906C /* OceanView.swift */,
+				4DC3AF101CBFE2CB0031906C /* SpaceView.swift */,
+			);
+			name = Themes;
+			sourceTree = "<group>";
+		};
+		4DFB92E51C762D8F00498191 /* Other Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DE53B7D1CB48B3A00C8C73B /* Types */,
+				4DEC37C31CAB0F3C00396CE7 /* Themes */,
+				4D447F6A1C288A770055D988 /* Calculator.swift */,
+				4DF3D81B1B2B769400B4C891 /* Prize.swift */,
+				4D1822E81C28FFDF00EAF151 /* DrawView.swift */,
+				4D60C4931C6E26A30012AD6B /* InputView.swift */,
+				4D23504A1C6B7D0400B9C644 /* Complication.swift */,
+				4D23504C1C6B7E6F00B9C644 /* Complications.swift */,
+				4D0EE6111C5AB2EC006801AE /* Images.swift */,
+				4D9B67531C5D1D4A00A63502 /* Colors.swift */,
+				4D433C811C6422DE0039BB25 /* passcodeTextField.swift */,
+				4D8B98131C87A9970063201D /* CountingView.swift */,
+				4D8B98151C87ACB20063201D /* Counting.swift */,
+				4D8B98171C8E26350063201D /* Stats.swift */,
+				4D8B981D1C8F54600063201D /* MathEquations.swift */,
+				4D8B981F1C8FA1170063201D /* Bonds.swift */,
+				4D8B98211C8FAD4A0063201D /* BondsView.swift */,
+				4D55D4FF1C9254D20000819E /* Functions.swift */,
+				4D9B67551C5D375900A63502 /* UserDefaults.swift */,
+			);
+			name = "Other Classes";
+			sourceTree = "<group>";
+		};
+		4DFB92E61C762E1E00498191 /* Prize Table */ = {
+			isa = PBXGroup;
+			children = (
+				4DF3D81D1B2B780F00B4C891 /* PrizeTableViewCell.swift */,
+				4D1822F81C35F30100EAF151 /* ParentControlSetPrizeTableViewCell.swift */,
+				4D1822FA1C35FB9D00EAF151 /* ParentControlPasswordTableViewCell.swift */,
+			);
+			name = "Prize Table";
+			sourceTree = "<group>";
+		};
+		4DFB92E71C762E2B00498191 /* Parental Control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Parental Control";
+			sourceTree = "<group>";
+		};
+		4DFB92E81C762E3300498191 /* Set Prize */ = {
+			isa = PBXGroup;
+			children = (
+				4DB2734B1C41CA57003327FB /* testCollectionViewCell.swift */,
+				4DB2734F1C41DA13003327FB /* prizeTitleTableViewCell.swift */,
+				4DB2733F1C41988B003327FB /* PrizeTypeTableViewCell.swift */,
+				4DB273511C41DA24003327FB /* prizeDescriptionTableViewCell.swift */,
+				4DB273531C41DA33003327FB /* prizeImageTableViewCell.swift */,
+			);
+			name = "Set Prize";
+			sourceTree = "<group>";
+		};
+		4DFB92E91C762E7D00498191 /* Multiuse */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B67571C5EDF5300A63502 /* HeaderCell.swift */,
+				4D2350441C6AEB4C00B9C644 /* CollectionViewInTableViewCell.swift */,
+				4D9B67601C5FBFEB00A63502 /* FooterCell.swift */,
+				4D74B3521C767F2E00A59858 /* GenericLabelAndTextTableViewCell.swift */,
+				4DF61BC71C9452AF0032A116 /* LabelWithSwitchSingleTableViewCell.swift */,
+			);
+			name = Multiuse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC53CF41B262F7100822C21 /* Prize Math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC53D141B262F7200822C21 /* Build configuration list for PBXNativeTarget "Prize Math" */;
+			buildPhases = (
+				4DC53CF11B262F7100822C21 /* Sources */,
+				4DC53CF21B262F7100822C21 /* Frameworks */,
+				4DC53CF31B262F7100822C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prize Math";
+			productName = JackieWWDC;
+			productReference = 4DC53CF51B262F7100822C21 /* Prize Math.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC53D091B262F7200822C21 /* Prize MathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC53D171B262F7200822C21 /* Build configuration list for PBXNativeTarget "Prize MathTests" */;
+			buildPhases = (
+				4DC53D061B262F7200822C21 /* Sources */,
+				4DC53D071B262F7200822C21 /* Frameworks */,
+				4DC53D081B262F7200822C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC53D0C1B262F7200822C21 /* PBXTargetDependency */,
+			);
+			name = "Prize MathTests";
+			productName = JackieWWDCTests;
+			productReference = 4DC53D0A1B262F7200822C21 /* Prize Math.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC53CED1B262F7100822C21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Eaton Productions";
+				TargetAttributes = {
+					4DC53CF41B262F7100822C21 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = C257479H3L;
+					};
+					4DC53D091B262F7200822C21 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4DC53CF41B262F7100822C21;
+					};
+				};
+			};
+			buildConfigurationList = 4DC53CF01B262F7100822C21 /* Build configuration list for PBXProject "Prize Math" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC53CEC1B262F7100822C21;
+			productRefGroup = 4DC53CF61B262F7100822C21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC53CF41B262F7100822C21 /* Prize Math */,
+				4DC53D091B262F7200822C21 /* Prize MathTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC53CF31B262F7100822C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D96133F1C501A3F0094E6D7 /* prizeCollectionViewCellImage.png in Resources */,
+				4D9613401C501A3F0094E6D7 /* prizeCollectionViewCellImageLarge.png in Resources */,
+				4DC53D001B262F7100822C21 /* Main.storyboard in Resources */,
+				4DF3D81A1B2B2A3F00B4C891 /* IMG_0189.JPG in Resources */,
+				4DC53D051B262F7100822C21 /* LaunchScreen.xib in Resources */,
+				4DC53D021B262F7100822C21 /* Images.xcassets in Resources */,
+				4DE6A2281CB573030016710E /* HeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC53D081B262F7200822C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC53CF11B262F7100822C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8667151C86623F0042B46F /* CustomSliderTableViewCell.swift in Sources */,
+				4D433C841C6927160039BB25 /* MainTableViewController.swift in Sources */,
+				4D2350471C6AED1D00B9C644 /* CollectionViewController.swift in Sources */,
+				4D1822F11C34509900EAF151 /* SetBonusQuestionTableViewCell.swift in Sources */,
+				4DD908CA1CB2D2F200A012FB /* TypeCollectionViewCell.swift in Sources */,
+				4D433C821C6422DE0039BB25 /* passcodeTextField.swift in Sources */,
+				4DC3AF081CBEFAA50031906C /* ThemeCollectionViewCell.swift in Sources */,
+				4D9B67541C5D1D4A00A63502 /* Colors.swift in Sources */,
+				4D8B981E1C8F54600063201D /* MathEquations.swift in Sources */,
+				4D1822ED1C33987100EAF151 /* ParentControllerTableViewController2.swift in Sources */,
+				4D433C891C69333A0039BB25 /* DefaultKeyPadTableViewCell.swift in Sources */,
+				4D1822F71C35F2BF00EAF151 /* ParentControlSetQuestionTableViewCell.swift in Sources */,
+				4D2350451C6AEB4C00B9C644 /* CollectionViewInTableViewCell.swift in Sources */,
+				4DE53B781CB4145B00C8C73B /* BondsCollectionViewCell.swift in Sources */,
+				4D1433381C626D8200DD5F77 /* PasscodeViewController.swift in Sources */,
+				4D1822FF1C360A4D00EAF151 /* NumOfEquationsTableViewCell.swift in Sources */,
+				4DC3AF0F1CBEFC770031906C /* OceanView.swift in Sources */,
+				4D9B67581C5EDF5300A63502 /* HeaderCell.swift in Sources */,
+				4D60C4941C6E26A30012AD6B /* InputView.swift in Sources */,
+				4D9E2D401C07E73D0072256C /* SketchViewController.swift in Sources */,
+				4DF3D81E1B2B780F00B4C891 /* PrizeTableViewCell.swift in Sources */,
+				4DF3D81C1B2B769400B4C891 /* Prize.swift in Sources */,
+				4D74B3531C767F2E00A59858 /* GenericLabelAndTextTableViewCell.swift in Sources */,
+				4D1D4CC91C5264F60011D6BC /* CollectionViewCellLongPressGestureRecognizer.swift in Sources */,
+				4D1822EB1C33766C00EAF151 /* SetBonuesQuestionTableViewController.swift in Sources */,
+				4D9B67641C6000E200A63502 /* MaxNumberTableViewCell.swift in Sources */,
+				4DE53B7C1CB48B2D00C8C73B /* Types.swift in Sources */,
+				4DC3AF0D1CBEFAF40031906C /* SpaceCollectionViewCell.swift in Sources */,
+				4DD908CE1CB3116F00A012FB /* BasicCollectionViewCell.swift in Sources */,
+				4D8B98141C87A9970063201D /* CountingView.swift in Sources */,
+				4DE6A2261CB572840016710E /* HeaderView.swift in Sources */,
+				4D1822FD1C36023D00EAF151 /* BonusQuestionEquationTableViewCell.swift in Sources */,
+				4D447F6B1C288A770055D988 /* Calculator.swift in Sources */,
+				4D1823031C372CE000EAF151 /* RandomTableViewCell.swift in Sources */,
+				4D8B98161C87ACB20063201D /* Counting.swift in Sources */,
+				4DF61BC81C9452AF0032A116 /* LabelWithSwitchSingleTableViewCell.swift in Sources */,
+				4D9B675B1C5F015700A63502 /* PrizeNavigationController.swift in Sources */,
+				4DD908CC1CB2D39900A012FB /* CountingCollectionViewCell.swift in Sources */,
+				4D433C871C6928A40039BB25 /* SimpleMathHorizontalTableViewCell.swift in Sources */,
+				4D9B67681C60011C00A63502 /* NightModeTableViewCell.swift in Sources */,
+				4DC3AF111CBFE2CB0031906C /* SpaceView.swift in Sources */,
+				4DEC37C71CAB0F8200396CE7 /* Theme.swift in Sources */,
+				4D35E9351C95A52300A35131 /* dualSliderCollectionViewCell.swift in Sources */,
+				4DC53CFB1B262F7100822C21 /* AppDelegate.swift in Sources */,
+				4DB2733A1C419050003327FB /* SetPrizeTableViewController.swift in Sources */,
+				4D1822F31C34531700EAF151 /* TimedTableViewCell.swift in Sources */,
+				4DEAF0C51C9D9BA400DD4836 /* MinMaxCollectionViewCell.swift in Sources */,
+				4DB273541C41DA33003327FB /* prizeImageTableViewCell.swift in Sources */,
+				4DB273521C41DA24003327FB /* prizeDescriptionTableViewCell.swift in Sources */,
+				4D9B67611C5FBFEB00A63502 /* FooterCell.swift in Sources */,
+				4D2350491C6AED6E00B9C644 /* GenericCollectionViewCell.swift in Sources */,
+				4D23504B1C6B7D0400B9C644 /* Complication.swift in Sources */,
+				4D8B98181C8E26350063201D /* Stats.swift in Sources */,
+				4D1822F91C35F30100EAF151 /* ParentControlSetPrizeTableViewCell.swift in Sources */,
+				4D18AE6E1B28966100BC7BA0 /* PrizeTableViewController.swift in Sources */,
+				4D9B67561C5D375900A63502 /* UserDefaults.swift in Sources */,
+				4D1822E91C28FFDF00EAF151 /* DrawView.swift in Sources */,
+				4DC3AF0B1CBEFAD60031906C /* OceanCollectionViewCell.swift in Sources */,
+				4D1822F51C34533A00EAF151 /* TriggerTableViewCell.swift in Sources */,
+				4D55D5001C9254D20000819E /* Functions.swift in Sources */,
+				4D8B98201C8FA1170063201D /* Bonds.swift in Sources */,
+				4D511E1B1CBC520C00170255 /* FractionsCollectionViewCell.swift in Sources */,
+				4DB2734C1C41CA57003327FB /* testCollectionViewCell.swift in Sources */,
+				4DB273401C41988B003327FB /* PrizeTypeTableViewCell.swift in Sources */,
+				4D61EFBB1B30DB7200163BDD /* SettingsViewController2.swift in Sources */,
+				4D1822FB1C35FB9D00EAF151 /* ParentControlPasswordTableViewCell.swift in Sources */,
+				4D0EE6121C5AB2EC006801AE /* Images.swift in Sources */,
+				4D96133A1C48800F0094E6D7 /* CollectionViewCellTapGestureRecognizer.swift in Sources */,
+				4DEAF0C71C9D9DFC00DD4836 /* MinMaxTableViewCell.swift in Sources */,
+				4D23504D1C6B7E6F00B9C644 /* Complications.swift in Sources */,
+				4D9B67661C6000FE00A63502 /* OperatorTableViewCell.swift in Sources */,
+				4DB273501C41DA13003327FB /* prizeTitleTableViewCell.swift in Sources */,
+				4D8B98221C8FAD4A0063201D /* BondsView.swift in Sources */,
+				4D8B981C1C8F47820063201D /* BondsTableViewCell.swift in Sources */,
+				4D9B675F1C5FB04E00A63502 /* PrizeMathTabBarController.swift in Sources */,
+				4D40A0971C618EDF00DD9C8D /* MainNavigationController.swift in Sources */,
+				4D5F8F521C8760C9007D7ED4 /* CountingTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC53D061B262F7200822C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC53D111B262F7200822C21 /* JackieWWDCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC53D0C1B262F7200822C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC53CF41B262F7100822C21 /* Prize Math */;
+			targetProxy = 4DC53D0B1B262F7200822C21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DC53CFE1B262F7100822C21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC53CFF1B262F7100822C21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC53D031B262F7100822C21 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC53D041B262F7100822C21 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC53D121B262F7200822C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC53D131B262F7200822C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC53D151B262F7200822C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JackieWWDC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eaton.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Prize Math";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4DC53D161B262F7200822C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JackieWWDC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eaton.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Prize Math";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4DC53D181B262F7200822C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JackieWWDCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eaton.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Prize Math";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prize Math.app/Prize Math";
+			};
+			name = Debug;
+		};
+		4DC53D191B262F7200822C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JackieWWDCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eaton.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Prize Math";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prize Math.app/Prize Math";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC53CF01B262F7100822C21 /* Build configuration list for PBXProject "Prize Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC53D121B262F7200822C21 /* Debug */,
+				4DC53D131B262F7200822C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC53D141B262F7200822C21 /* Build configuration list for PBXNativeTarget "Prize Math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC53D151B262F7200822C21 /* Debug */,
+				4DC53D161B262F7200822C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC53D171B262F7200822C21 /* Build configuration list for PBXNativeTarget "Prize MathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC53D181B262F7200822C21 /* Debug */,
+				4DC53D191B262F7200822C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC53CED1B262F7100822C21 /* Project object */;
+}
