@@ -14,7 +14,7 @@ After a predetermined number of questions are answered correctly, the app change
 
 ![Alt text](/Images/gravity.PNG?raw=true "Gravity") ![Alt text](/Images/orbit.PNG?raw=true "Gravity")
 
-If the user is successful in answering the bonus questions he or she is awarded a prize. The uses can access previously won prices by touching the “Prizes” tab:
+If the user is successful in answering the bonus questions he or she is awarded a prize. The users can access previously won prices by touching the “Prizes” tab:
 
 ![Alt text](/Images/prizeTab.PNG?raw=true "Prizes Tab")
 
