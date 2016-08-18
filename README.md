@@ -30,9 +30,7 @@ The user is able to change the settings of the app by clicking on the settings i
 
 Parental Settings:
 
-Parents can define the bonus questions and prizes by clicking on the “Parental Settings in the Prizes Tab.
-
-![Alt text](/Images/settingsXXX.PNG?raw=true "Prizes Tab") 
+Parents can define the bonus questions and prizes by clicking on the “Parental Settings" in the Prizes Tab (See image above).
 
 A passcode can be set to prevent other uses from changing the bonus questions and/or prizes.
 
@@ -44,5 +42,5 @@ Under the Set Bonus Question option, Parents can define the bonus questions by s
 
 Under the Set Prize option, parents can define the prize to be award to the user by entering detail information and either selecting a picture from the photo library or taking one:
 
-![Alt text](/Images/setPrizexxxx.PNG?raw=true "Set Prize") ![Alt text](/Images/bonusPicture.PNG?raw=true "Set Prize") ![Alt text](/Images/deletePrize.PNG?raw=true "Set Prize")
+![Alt text](/Images/parentalSettings.PNG?raw=true "Set Prize") ![Alt text](/Images/bonusPicture.PNG?raw=true "Set Prize") ![Alt text](/Images/deletePrize.PNG?raw=true "Set Prize")
 
