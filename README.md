@@ -40,7 +40,7 @@ Under the Set Bonus Question option, Parents can define the bonus questions by s
 
 ![Alt text](/Images/setBonus.PNG?raw=true "Set Bonus") ![Alt text](/Images/setBonus2.PNG?raw=true "Set Bonus") 
 
-Under the Set Prize option, parents can define the prize by entering detail information and either selecting a picture from the photo library or taking one:
+Under the Set Prize option, parents can define the prize by entering detail information and either selecting a picture from the photo library or by taking one with the camera:
 
 ![Alt text](/Images/parentalSettings.png?raw=true "Set Prize") ![Alt text](/Images/bonusPicture.PNG?raw=true "Set Prize") ![Alt text](/Images/deletePrize.PNG?raw=true "Set Prize")
 
