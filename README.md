@@ -36,7 +36,7 @@ Parents can define the bonus questions and prizes by clicking on the “Parental
 
 A passcode can be set to prevent other uses from changing the bonus questions and/or prizes.
 
-![Alt text](/Images/setPassword.PNG?raw=true "Passcode") ![Alt text](/Images/confirmPassword.PNG?raw=true "Passcode") 
+![Alt text](/Images/setPasscode.PNG?raw=true "Passcode") ![Alt text](/Images/confirmPasscode.PNG?raw=true "Passcode") 
 
 Under the Set Bonus Question option, Parents can define the bonus questions by selecting the Type of question to be asked, setting a complication, choosing to make the bonus round timed or not and also defining the actual questions or allowing the app to create them randomly.
 
