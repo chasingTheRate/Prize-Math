@@ -6,9 +6,11 @@ How to Play:
 
 A user answers math questions by touching the displayed buttons and submitting answers by swiping right.  Answers can be cleared by swiping left. 
 
-![Alt text](/Images/howToPlay.PNG?raw=true "Title")
+![Alt text](/Images/howToPlay.PNG?raw=true "Home")
 
-After a predetermined number of questions are answered correctly the app changes to a “Bonus Mode” where the user will be presented with another round of math questions to be answered.  Bonus Mode can be complicated by including a timer and/or “Complications”.  Complications are button animation that make selected the number button more difficult.  “Gravity” and “Orbit” are shown below:
+After a predetermined number of questions are answered correctly the app changes to a “Bonus Mode” where the user will be presented with another round of math questions.  Bonus Mode can be complicated by including a timer and/or “Complications”.  "Complications" are button animations that make selecting the number buttons more difficult.  “Gravity” and “Orbit” are shown below:
+
+![Alt text](/Images/gravity.PNG?raw=true "Gravity") ![Alt text](/Images/orbit.PNG?raw=true "Gravity")
 
 If the user is successful in answering the bonus questions he or she is award a prize:
 
